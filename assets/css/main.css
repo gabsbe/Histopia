@@ -21,8 +21,8 @@
 :root { 
   --background-color: #0a0a2a; /* Background color for the entire website, including individual sections */
   --default-color: #d6d6e9; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #37373f; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #ce1212; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --heading-color: #b7b7cc; /* Color for headings, subheadings and title throughout the website */
+  --accent-color: #6959CD; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -1167,6 +1167,12 @@ section,
   margin-bottom: 15px;
 }
 
+
+.cards-pokemon {
+  height: 300px;
+  width: auto;
+}
+
 .menu .tab-content .menu-item h4 {
   font-size: 24px;
   font-weight: 400;
@@ -1176,7 +1182,7 @@ section,
 
 .menu .tab-content .menu-item .ingredients {
   font-family: var(--nav-font);
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
+  color: color-mix(in srgb, var(--default-color), transparent 35%);
   margin-bottom: 5px;
 }
 
